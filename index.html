@@ -10,23 +10,48 @@
 <body>
 
     <div class="container">
+
         <h1>Tic Tac Toe</h1>
+
+        <div class="scoreboard">
+            <h3>X Score: <span id="x-score">0</span></h3>
+            <h3>O Score: <span id="o-score">0</span></h3>
+        </div>
 
         <h2 id="status">Player X's Turn</h2>
 
         <div class="board">
+
             <button class="cell"></button>
             <button class="cell"></button>
             <button class="cell"></button>
+
             <button class="cell"></button>
             <button class="cell"></button>
             <button class="cell"></button>
+
             <button class="cell"></button>
             <button class="cell"></button>
             <button class="cell"></button>
+
         </div>
 
-        <button id="reset">Reset Game</button>
+        <div class="buttons">
+
+            <button id="reset">
+                Reset Game
+            </button>
+
+            <button id="resetScores">
+                Reset Scores
+            </button>
+
+            <button id="darkMode">
+                Dark Mode
+            </button>
+
+        </div>
+
     </div>
 
     <script src="script.js"></script>
